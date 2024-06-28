@@ -59,3 +59,24 @@ mark{
   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.6);
 
 }
+@media screen and (max-width: 600px) {
+  .largeText{
+    margin: 10px 20px;
+    padding: 10px 30px;
+  }
+  input{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .largeText{
+    margin: 10px 20px;
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .largeText{
+    margin: 10px 20px;
+    padding: 10px 30px;
+  }
+}
