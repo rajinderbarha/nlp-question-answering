@@ -1,38 +1,61 @@
-.App {
+*{
+  color: #6f6969;
+}
+.app{
+  background-image: url('./assets/solar.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App{
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  padding: 20px;
+  font-size: 20PX;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 8px 0 0 8px;
+  color: whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form{
+  padding: 10px 0 50px 0 ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button{
+  background: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 0 8px 8px 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+mark{
+  background-color: #d2fd24;
+  font-weight: bold;
+  border: 10x solid #d2fd24;
+  border-radius: 8px;
+  text-decoration: underline;
+}
+.mark{
+ color: white;
+ font-size: 22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.largeText{
+  border-radius: 8px;
+  border: 2px solid rgb(16, 0, 98);
+  padding: 60px 125px;
+  margin: 20px 160px;
+}
+.answer{
+  border-radius: 8px;
+  border: 2px solid rgb(16, 0, 98);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.6);
+
 }
